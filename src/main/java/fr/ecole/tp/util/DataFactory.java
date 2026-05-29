@@ -11,33 +11,33 @@ public class DataFactory {
 
     public static List<Produit> getProduits() {
         return List.of(
-                new Produit("P01", "Clavier mecanique", "Informatique", 89.99, true),
-                new Produit("P02", "Souris gamer", "Informatique", 59.99, false),
-                new Produit("P03", "Ecran 27 pouces", "Informatique", 549.99, false),
-                new Produit("P04", "Casque audio", "Informatique", 129.99, true),
-                new Produit("P05", "Bureau standing", "Mobilier", 349.99, false),
-                new Produit("P06", "Chaise ergonomique", "Mobilier", 299.99, true),
-                new Produit("P07", "Lampe de bureau", "Mobilier", 45.00, false),
-                new Produit("P08", "Webcam HD", "Peripheriques", 79.99, false),
-                new Produit("P09", "Hub USB-C", "Peripheriques", 49.99, true),
-                new Produit("P10", "Tapis de souris XL", "Peripheriques", 29.99, false),
-                new Produit("P11", "Livre Java", "Livres", 39.99, false),
-                new Produit("P12", "Livre Design Patterns", "Livres", 44.99, true)
+                new Produit("P01", "Clavier mecanique",      "Informatique",  89.99,  true),
+                new Produit("P02", "Souris gamer",           "Informatique",  59.99,  false),
+                new Produit("P03", "Ecran 27 pouces",        "Informatique",  549.99, false),
+                new Produit("P04", "Casque audio",           "Informatique",  129.99, true),
+                new Produit("P05", "Bureau standing",        "Mobilier",      349.99, false),
+                new Produit("P06", "Chaise ergonomique",     "Mobilier",      299.99, true),
+                new Produit("P07", "Lampe de bureau",        "Mobilier",      45.00,  false),
+                new Produit("P08", "Webcam HD",              "Peripheriques", 79.99,  false),
+                new Produit("P09", "Hub USB-C",              "Peripheriques", 49.99,  true),
+                new Produit("P10", "Tapis de souris XL",     "Peripheriques", 29.99,  false),
+                new Produit("P11", "Livre Java",             "Livres",        39.99,  false),
+                new Produit("P12", "Livre Design Patterns",  "Livres",        44.99,  true)
         );
     }
 
     public static List<Client> getClients() {
         return List.of(
-                new Client("C01", "Alice Martin", "alice@mail.com"),
-                new Client("C02", "Bob Dupont", "bob@mail.com"),
-                new Client("C03", "Clara Petit", "clara@mail.com"),
+                new Client("C01", "Alice Martin",  "alice@mail.com"),
+                new Client("C02", "Bob Dupont",    "bob@mail.com"),
+                new Client("C03", "Clara Petit",   "clara@mail.com"),
                 new Client("C04", "David Bernard", "david@mail.com")
         );
     }
 
     public static List<Commande> getCommandes() {
         List<Produit> produits = getProduits();
-        List<Client> clients = getClients();
+        List<Client> clients  = getClients();
 
         return List.of(
                 new Commande("CMD01", clients.get(0), List.of(
