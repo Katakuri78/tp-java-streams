@@ -244,8 +244,6 @@ public class CatalogueService {
     }
 
     public void demonstrationVariableFinale() {
-        // prefixe est effectivement finale : elle n'est jamais reassignee.
-        // C'est obligatoire pour etre capturee dans une lambda.
         String prefixe = "[PRODUIT] ";
         produits.forEach(p -> System.out.println(prefixe + p.getNom()));
     }
