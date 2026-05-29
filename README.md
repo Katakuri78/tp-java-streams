@@ -53,9 +53,9 @@ java -jar target/tp-java-streams-1.0.0.jar
 
 ## Repartition du travail
 
-- Ahmed-Rami ASSOUL — Référent modèle / données | Classes métier, données de test, génération de données
-- Mohammed Zuhayr MOHAMMED — Référent traitements Stream | Filtres, tris, transformations, statistiques
-- Othman HMAILI — Référent console / Git / tests | Menu console, Gitflow, tests unitaires, documentation
+- Ahmed-Rami ASSOUL | Référent modèle / données | Classes métier, données de test, génération de données
+- Mohammed Zuhayr MOHAMMED | Référent traitements Stream | Filtres, tris, transformations, statistiques
+- Othman HMAILI | Référent console / Git / tests | Menu console, Gitflow, tests unitaires, documentation
 
 Cette répartition est indicative. Nous nous sommes entraidés pour chaque partie.
 
