@@ -27,6 +27,6 @@ public class Commande {
 
     @Override
     public String toString() {
-        return "Commande " + id + " - " + client.getNom();
+        return "Commande " + id + " - " + client.getNom(); //revoir
     }
 }
